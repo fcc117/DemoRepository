@@ -12,6 +12,14 @@ namespace DemoSolution
         {
             Console.WriteLine("Hola mundo Git");
             Console.WriteLine("Hola mundo Git");
+            Console.WriteLine("Hola mundo Git");
+            Console.WriteLine("Hola mundo Git");
+
+            var saludo = new OtraClase().OtroMetodo();
+
+            Console.WriteLine(saludo);
+
+            Console.ReadLine();
         }
     }
 }
